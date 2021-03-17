@@ -1,0 +1,58 @@
+package com.adactin.helper;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.adaction.pom.Bookhotel_Pom;
+import com.adaction.pom.Login_Pom;
+import com.adaction.pom.Logout_Pom;
+import com.adaction.pom.Search_Pom;
+import com.adaction.pom.Searchclick_Pom;
+
+
+public class Page_Object_Manager {
+	  
+			 
+	public WebDriver driver;
+	
+	private Login_Pom login ;
+	private Search_Pom search;
+	
+	private Searchclick_Pom searchclick;
+	private Bookhotel_Pom bookhotel ;
+
+	
+	public Page_Object_Manager(WebDriver driver2) {
+		this.driver=driver2;
+		PageFactory.initElements(driver, this);
+	}
+
+
+	public Login_Pom get_InstanceLogin() {
+	login= new Login_Pom(driver);
+	return login;
+
+	}
+	
+	
+	public Search_Pom get_InstanceSearchHotel() {
+
+   search=new Search_Pom(driver);
+   return search;
+	}
+	
+	public Searchclick_Pom get_InstanceSearchclick_Pom() {
+		searchclick = new  Searchclick_Pom(driver);
+		return searchclick;
+		
+
+	}
+	
+	public  Bookhotel_Pom get_InstanceBookhotel_Pom() {
+	bookhotel=new Bookhotel_Pom(driver);
+	return bookhotel;
+
+	}
+	
+	
+}

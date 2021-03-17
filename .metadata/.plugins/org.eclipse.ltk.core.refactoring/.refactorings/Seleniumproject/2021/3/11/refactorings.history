@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Base_Class.java&apos; to &apos;Adactin_Prj/src/main/java/com.basecalss&apos;&#x0D;&#x0A;- Original project: &apos;Seleniumproject&apos;&#x0D;&#x0A;- Destination element: &apos;Adactin_Prj/src/main/java/com.basecalss&apos;&#x0D;&#x0A;- Original element: &apos;com.automation.practise.Base_Class.java&apos;" description="Copy compilation unit" destination="=Adactin_Prj/src\/main\/java&lt;com.basecalss" element1="/src&lt;com.automation.practise{Base_Class.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615445171767" units="1" version="1.0"/>
+</session>

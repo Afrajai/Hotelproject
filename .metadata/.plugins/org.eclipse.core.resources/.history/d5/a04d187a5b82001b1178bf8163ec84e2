@@ -1,0 +1,22 @@
+package com.Testng_Concept;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class Assert_Concept {
+
+	@Test
+	private void credentials() {
+		String expected ="jainul";
+		String actual = "nourin";
+		Assert.assertEquals(actual,expected);
+		System.out.println("passed");
+		Assert.assertNotNull(actual);
+		
+		
+
+	}
+	
+	
+}

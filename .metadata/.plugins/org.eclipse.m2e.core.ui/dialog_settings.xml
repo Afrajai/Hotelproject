@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Welcome\eclipse-workspace\a\src\main\java"/>
+			<item value="C:\Users\Welcome\eclipse-workspace\Automation_Practise\pom.xml"/>
+			<item value="C:\Users\Welcome\eclipse-workspace\Automation_Practise"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.Adactin_Project"/>
+			<item value="com.Adactin_Prj"/>
+			<item value="com.Testng_Concept"/>
+			<item value="com.DataDriven_Framework"/>
+			<item value="com.Datadriven_Framework"/>
+			<item value="com.Automation_Practise"/>
+		</list>
+		<list key="groupId">
+			<item value="com"/>
+		</list>
+		<list key="artifactId">
+			<item value="Adactin_Project"/>
+			<item value="Adactin_Prj"/>
+			<item value="Testng_Concept"/>
+			<item value="DataDriven_Framework"/>
+			<item value="Datadriven_Framework"/>
+			<item value="Automation_Practise"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="a"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
